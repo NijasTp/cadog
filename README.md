@@ -13,7 +13,8 @@ Cagod Matrimony connects responsible pet guardians to help their feline and cani
 - **Deep Blue:** `#005A9C` (primary action buttons, focal elements)
 - **Sky Blue:** `#60C1E5` (accents, active states, vector strokes)
 - **Light Cyan:** `#A0E0EF` (delicate highlights, soft badges)
-- **Soft Backgrounds:** `#FFFFFF` and `#F8FAFC` (light theme), `#0B1726` and `#13253B` (dark theme)
+- **Default Dark Theme:** Deep navy surfaces (`#0B1726` and `#13253B`), light cyan accents, and high-contrast typography.
+- **Light Theme:** Available via the navigation theme toggle with crisp white and warm off-white tones (`#FFFFFF` and `#F8FAFC`).
 
 ### 2. Typography
 - **Headings:** Plus Jakarta Sans (loaded via Next.js Google Fonts)

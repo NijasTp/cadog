@@ -238,8 +238,8 @@ export const registerNewOwner = (ownerData: Omit<Owner, "id" | "joinedDate">): O
 
 // ================= THEME =================
 export const getStoredTheme = (): "light" | "dark" => {
-  if (typeof window === "undefined") return "light";
-  return (localStorage.getItem(KEYS.THEME) as "light" | "dark") || "light";
+  if (typeof window === "undefined") return "dark";
+  return (localStorage.getItem(KEYS.THEME) as "light" | "dark") || "dark";
 };
 
 export const setStoredTheme = (theme: "light" | "dark"): void => {
