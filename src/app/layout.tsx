@@ -20,6 +20,14 @@ export const metadata: Metadata = {
   title: "Cagod Matrimony - Premium Companion Discovery for Cats & Dogs",
   description:
     "An elegant, trusted matrimony and companion platform connecting beloved cats and dogs with compatible companions.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
